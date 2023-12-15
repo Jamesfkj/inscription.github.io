@@ -1,0 +1,49 @@
+body{
+    background-color: #ececeb;
+}
+.div1{
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+}
+input{
+    height: 25px;
+    width: 500px;
+    border-radius: 5px;
+    border-color: blueviolet;
+    align-self: stretch;
+    align-items: stretch;
+    border-top-color: blueviolet;
+}
+select{
+    width: 300px;
+    border-radius: 5px;
+    border-color: blueviolet;
+}
+td{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    width: 500px;
+}
+.valid{
+    background-color: #e65c00;
+    width: 100px;
+    border-radius: 5px;
+    border-color: black;
+}
+.div2{
+    width: 60%;
+}
+table{
+    width: 100%;
+    
+}
+.ti{
+    font-size: 15px;
+}
+tr{
+    height: 40px;
+}
+.s1{
+    margin-right: 208px;
+}

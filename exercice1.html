@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exercice1.css">
+</head>
+<body>
+    
+        <div class="div1">
+            <center><h1>Formulaire d'inscription</h1></center>
+        </div>
+        <div class="">
+        <center>
+<div class="div2"><br>
+    <form action="index.php" method="post">
+    <table><tr><td class="ti"><i>Les champs suivient d'un asterisques (*) sont obligatoires.</i></td></tr></table>
+        <fieldset>
+            <legend><i>Civilit&eacute;</i></legend>
+            <table>
+                <tr>
+                    <td>Nom:*</td>
+                    <td><input type="text" id="nom" name="nom"></td>
+                </tr>
+                <tr>
+                    <td>Prenom:*</td>
+                    <td><input type="text" id="prenom" name="prenom"></td>
+                </tr>
+                <tr>
+                    <td>Date de naissance:</td>
+                    <td><input type="date" id="date" name="date"></td>
+                </tr>
+                <tr>
+                    <td>Sexe:*</td>
+                    <td>
+                    <Select name="sexe"><option value="default">--Votre genre--</option>
+                        <option value="">Masculin</option>
+                        <option value="">Feminin</option>
+                    </Select>
+                </td>
+                </tr>
+                <tr>
+                    <td>Nationalit&eacute;:</td>
+                    <td><input type="text" id="nation" name="nation"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend><i>Cursus scolaire</i></legend>
+            <table>
+                <tr>
+                    <td>S&eacute;rie du BAC:*</td>
+                    <td><Select class="s1" name="serie">
+                        <option value="">-- Choisir votre s&eacute;rie--</option>
+                        <option value="">C</option>
+                        <option value="">D</option>
+                        <option value="">E</option>
+                        <option value="">A4</option>
+                        <option value="">G1</option>
+                        <option value="">G2</option>
+                        <option value="">G3</option>
+                        <option value="">G4</option>
+                        <option value="">F1</option>
+                        <option value="">F2</option>
+                        <option value="">F3</option>
+                        <option value="">F4</option>
+                    </Select></td>
+                </tr>
+                <tr>
+                    <td>Filiere:</td>
+                    <td><select class="s1" name="filie">
+                        <option value="">-- Choisir votre filiere--</option>
+                        <option value="">GLSI</option>
+                        <option value="">ASR</option>
+                        <option value="">MTWI</option>
+                    </select></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend><i>Cr&eacute;ation de compte</i></legend>
+            <table>
+                <tr>
+                    <td>Pseudo:*</td>
+                    <td><input type="text" id="pseudo"></td>
+                </tr>
+                <tr>
+                    <td>Mot de passe:*</td>
+                    <td><input type="password" id="motdepasse"></td>
+                </tr>
+                <tr>
+                    <td>Confirmer le mot de passe:*</td>
+                    <td><input type="password" id="C_motdepasse"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <table>
+            <tr>
+                <td class="ti">
+                    <input type="Submit" value="Envoyer" name="submit" class="valid" onclick="envoyer()">
+                </td>
+            </tr>
+        </table>
+    </div>
+    </center> 
+</div> 
+</form>
+</body>
+</html>
